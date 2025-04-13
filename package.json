@@ -1,0 +1,22 @@
+{
+  "name": "website-to-markdown",
+  "version": "1.0.0",
+  "description": "Recursively crawl a website and convert pages to markdown files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "web-crawler",
+    "markdown",
+    "html-to-markdown"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "sanitize-filename": "^1.6.3",
+    "turndown": "^7.2.0"
+  }
+}
